@@ -4,22 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 1440px;
-    display: flex;
-    flex-direction: column;    
-    align-items: center;
-}
-
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
-    width: inherit;
     height: 140px;
-    flex-shrink: 0;
-
+    width: 100%;
     z-index: 2;
 
     position: fixed;
@@ -33,8 +22,6 @@ header {
     font-family: Arial;
     font-size: 50px;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 a {
@@ -49,11 +36,10 @@ a {
 }
 
 h1 {
-    display: flex;
     position: relative;
     z-index: 1;
 
-    width: inherit;
+    
     height: 950px;
     margin-top: 140px;
 
@@ -62,14 +48,16 @@ h1 {
     font-family: Arial;
     font-weight: 400;
     word-wrap: break-word;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding-top: 500px;
 
     background-image: url(images/evian\ origins\ logo.svg);
     background-size: cover;
 }
 
 .block1 {
+    margin-left: auto;
+    margin-right: auto;
     width: 1040px;
     height: 280px;
     margin-top: 150px;
@@ -93,6 +81,9 @@ h1 {
 }
 
 .bottle-line {
+    margin-left: auto;
+
+    margin-right: auto;
     width: 1040px;
     text-align: center;
     display: flex;
